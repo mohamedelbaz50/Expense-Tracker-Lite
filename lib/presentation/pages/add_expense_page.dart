@@ -82,7 +82,7 @@ class _AddExpensePageState extends State<AddExpensePage> {
       setState(() {
         imagePath = image.path.split('/').last;
       });
-    } on Exception catch (e) {
+    } on Exception {
       // TODO
     }
   }
