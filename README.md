@@ -1,16 +1,35 @@
-# awamer_task
+# Expense-Tracker-Lite
 
-A new Flutter project.
+A mobile App to Track yor Expenses Easily.
 
-## Getting Started
+## Features 
 
-This project is a starting point for a Flutter application.
+- add expenses
+- show expenses
+- show statics to income and expenses amount
+- convert all currncies to USD
 
-A few resources to get you started if this is your first Flutter project:
+## Screens 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img width="1080" height="2160" alt="Screenshot_1765463989" src="https://github.com/user-attachments/assets/2cf3b77d-6633-4353-90ff-89f8c5164e06" />
+<img width="1080" height="2160" alt="Screenshot_1765463995" src="https://github.com/user-attachments/assets/fe3cf9c5-07e8-41a1-a694-9c3a5f5c9bcb" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📁 Project Structure
+
+├── lib/
+│ ├── main.dart
+│ ├── data/
+│ │ ├── models/
+│ │ └── repositories/
+│ └── core/
+│ └── helpers/
+├── assets/
+│ ├── images/
+│ └── icons/
+├── presentation/
+│ ├── controllers/
+│ └── pages/
+├── pubspec.yaml
+└── README.md
+
+
