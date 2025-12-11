@@ -1,15 +1,24 @@
-class ExpenseModel {
-  final String id;
-  final String title;
-  final double amount;
-  final DateTime date;
-  final String category;
+import 'package:hive/hive.dart';
 
-  ExpenseModel({
-    required this.id,
-    required this.title,
+part 'expense_model.g.dart';
+
+@HiveType(typeId: 0)
+class Expense {
+  @HiveField(0)
+  String category;
+
+  @HiveField(1)
+  double amount;
+
+  @HiveField(2)
+  String date;
+  @HiveField(3)
+  String currency;
+
+  Expense({
+    required this.category,
     required this.amount,
     required this.date,
-    required this.category,
+    required this.currency,
   });
 }

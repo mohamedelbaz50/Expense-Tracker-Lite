@@ -11,6 +11,7 @@ class CustomTextFormField extends StatelessWidget {
   final Widget? prefixIcon;
   final bool isReadOnly;
   final VoidCallback? onTap;
+  final String? Function(String?)? validator;
   const CustomTextFormField({
     super.key,
     required this.hintText,
@@ -22,12 +23,14 @@ class CustomTextFormField extends StatelessWidget {
     this.prefixIcon,
     this.isReadOnly = false,
     this.onTap,
+    this.validator,
   });
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
       readOnly: isReadOnly,
+      validator: validator,
       onTap: onTap,
       maxLines: maxLines,
       controller: controller,
