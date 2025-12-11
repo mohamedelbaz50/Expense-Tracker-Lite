@@ -33,6 +33,12 @@ A mobile App to Track yor Expenses Easily.
 ├── pubspec.yaml
 └── README.md
 
+## Platform 
+-Flutter 
+## Stacks 
+-Cubit
+-Hive
+-http
 
 
 
