@@ -32,6 +32,8 @@ A mobile App to Track yor Expenses Easily.
 │ └── pages/
 ├── pubspec.yaml
 └── README.md
+##  unimplemented features
+-get expenses with filters
 
 ## Platform 
 -Flutter 
