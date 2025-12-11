@@ -16,6 +16,7 @@ A mobile App to Track yor Expenses Easily.
 
 ## 📁 Project Structure
 
+
 ├── lib/
 │ ├── main.dart
 │ ├── data/
@@ -31,5 +32,20 @@ A mobile App to Track yor Expenses Easily.
 │ └── pages/
 ├── pubspec.yaml
 └── README.md
+##  unimplemented features
+-get expenses with filters
+
+## Platform 
+-Flutter 
+## Stacks 
+-Cubit
+-Hive
+-http
+## How to Run The App 
+- clone https://github.com/mohamedelbaz50/Expense-Tracker-Lite.git
+- cd project
+-  open terminal and write 'flutter pub get'
+-  flutter run 
+
 
 
