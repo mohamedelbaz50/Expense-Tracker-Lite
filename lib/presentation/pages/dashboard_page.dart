@@ -252,6 +252,11 @@ class _DashboardPageState extends State<DashboardPage> {
                         return Center(child: CircularProgressIndicator());
                       } else if (state is GetExpensesFailure) {
                         return Center(child: Text('Failed to load expenses'));
+                      } else if (context
+                          .read<DashboardCubit>()
+                          .allExpenses
+                          .isEmpty) {
+                        return Center(child: Text('No expenses yet'));
                       } else if (state is GetExpensesSuccess) {
                         final expenses = state.expenses;
 
