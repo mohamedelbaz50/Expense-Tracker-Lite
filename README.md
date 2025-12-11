@@ -1,4 +1,4 @@
-# awamer_task
+# Expense-Tracker-Lite
 
 A new Flutter project.
 
